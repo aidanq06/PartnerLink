@@ -2,7 +2,8 @@
 
 PartnerLink is an educational resource management system tailored for academic institutions. It provides a comprehensive platform for administrators and educators to efficiently oversee educational resources provided by different businesses and organizations the school has access to. 
 
-<img src="https://i.imgur.com/WMOIVWc.png" alt="PartnerLink Logo">
+![image](https://github.com/aidanq06/PartnerLink/assets/62295620/14edd017-683b-436a-9344-f6502ac34182)
+
 
 ## Key Features
 - **Resource Allocation**: PartnerLink allows for meticulous management of educational resources across various departments and classrooms.
