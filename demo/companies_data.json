@@ -1,0 +1,202 @@
+[
+    {
+        "companyName": "Green Earth Initiative",
+        "type": "Non-Profit Organization",
+        "contactEmail": "ginitiative@partners.com",
+        "contactPhone": "516-714-5451",
+        "resources": "Offers volunteer opportunities and community service projects, with a focus on student personal development.",
+        "description": "Dedicated to making a positive impact in the community, fostering growth and support for those in need."
+    },
+    {
+        "companyName": "Quantum Analytics",
+        "type": "Corporate Business",
+        "contactEmail": "qanalytics@schoolpartnerships.org",
+        "contactPhone": "556-172-2992",
+        "resources": "Sponsors scholarships, engages in curriculum development, and provides resources for STEM education.",
+        "description": "A leader in industry, advancing technology and strategies to build a sustainable and prosperous future."
+    },
+    {
+        "companyName": "New Horizons",
+        "type": "Non-Profit Organization",
+        "contactEmail": "nhorizons@collab.org",
+        "contactPhone": "876-380-3140",
+        "resources": "Offers volunteer opportunities and community service projects, with a focus on student personal development.",
+        "description": "Dedicated to making a positive impact in the community, fostering growth and support for those in need."
+    },
+    {
+        "companyName": "Community Fitness Hub",
+        "type": "Local Business",
+        "contactEmail": "chub@community.edu",
+        "contactPhone": "196-594-1493",
+        "resources": "Supports local school events, provides educational discounts, and participates in school-run local economy studies.",
+        "description": "Rooted in the community, passionate about contributing to the local culture and economy, nurturing a vibrant society."
+    },
+    {
+        "companyName": "City Book Haven",
+        "type": "Local Business",
+        "contactEmail": "chaven@educonnect.net",
+        "contactPhone": "269-162-9697",
+        "resources": "Supports local school events, provides educational discounts, and participates in school-run local economy studies.",
+        "description": "Rooted in the community, passionate about contributing to the local culture and economy, nurturing a vibrant society."
+    },
+    {
+        "companyName": "Helping Hands",
+        "type": "Non-Profit Organization",
+        "contactEmail": "hhands@partners.com",
+        "contactPhone": "991-904-6401",
+        "resources": "Offers volunteer opportunities and community service projects, with a focus on student personal development.",
+        "description": "Dedicated to making a positive impact in the community, fostering growth and support for those in need."
+    },
+    {
+        "companyName": "Educational Outreach Program",
+        "type": "Government Affiliated",
+        "contactEmail": "eprogram@collab.org",
+        "contactPhone": "796-838-1453",
+        "resources": "Collaborates on educational programs, grants for school improvements, and support for extracurricular activities.",
+        "description": "Committed to public service and development, ensuring access to quality resources and benefits for all."
+    },
+    {
+        "companyName": "Educational Outreach Program",
+        "type": "Government Affiliated",
+        "contactEmail": "eprogram@collab.org",
+        "contactPhone": "489-927-1113",
+        "resources": "Collaborates on educational programs, grants for school improvements, and support for extracurricular activities.",
+        "description": "Committed to public service and development, ensuring access to quality resources and benefits for all."
+    },
+    {
+        "companyName": "Urban Development Board",
+        "type": "Government Affiliated",
+        "contactEmail": "uboard@community.edu",
+        "contactPhone": "495-430-9448",
+        "resources": "Collaborates on educational programs, grants for school improvements, and support for extracurricular activities.",
+        "description": "Committed to public service and development, ensuring access to quality resources and benefits for all."
+    },
+    {
+        "companyName": "Health Horizon Pharma",
+        "type": "For-Profit Organization",
+        "contactEmail": "hpharma@community.edu",
+        "contactPhone": "391-628-4752",
+        "resources": "Provides internships and career mentoring for students, along with funding for school tech initiatives.",
+        "description": "Focused on bringing innovative solutions to the market, driving progress and opportunities for the next generation."
+    },
+    {
+        "companyName": "Public Health Services",
+        "type": "Government Affiliated",
+        "contactEmail": "pservices@schoolpartnerships.org",
+        "contactPhone": "305-464-5456",
+        "resources": "Collaborates on educational programs, grants for school improvements, and support for extracurricular activities.",
+        "description": "Committed to public service and development, ensuring access to quality resources and benefits for all."
+    },
+    {
+        "companyName": "Educational Outreach Program",
+        "type": "Government Affiliated",
+        "contactEmail": "eprogram@partners.com",
+        "contactPhone": "430-718-2897",
+        "resources": "Collaborates on educational programs, grants for school improvements, and support for extracurricular activities.",
+        "description": "Committed to public service and development, ensuring access to quality resources and benefits for all."
+    },
+    {
+        "companyName": "Future Builders Inc.",
+        "type": "For-Profit Organization",
+        "contactEmail": "finc.@educonnect.net",
+        "contactPhone": "342-356-5477",
+        "resources": "Provides internships and career mentoring for students, along with funding for school tech initiatives.",
+        "description": "Focused on bringing innovative solutions to the market, driving progress and opportunities for the next generation."
+    },
+    {
+        "companyName": "Health Horizon Pharma",
+        "type": "For-Profit Organization",
+        "contactEmail": "hpharma@partners.com",
+        "contactPhone": "261-238-7260",
+        "resources": "Provides internships and career mentoring for students, along with funding for school tech initiatives.",
+        "description": "Focused on bringing innovative solutions to the market, driving progress and opportunities for the next generation."
+    },
+    {
+        "companyName": "Tech Innovate",
+        "type": "For-Profit Organization",
+        "contactEmail": "tinnovate@community.edu",
+        "contactPhone": "784-463-1009",
+        "resources": "Provides internships and career mentoring for students, along with funding for school tech initiatives.",
+        "description": "Focused on bringing innovative solutions to the market, driving progress and opportunities for the next generation."
+    },
+    {
+        "companyName": "Fresh & Local Cafe",
+        "type": "Local Business",
+        "contactEmail": "fcafe@schoolpartnerships.org",
+        "contactPhone": "405-766-8893",
+        "resources": "Supports local school events, provides educational discounts, and participates in school-run local economy studies.",
+        "description": "Rooted in the community, passionate about contributing to the local culture and economy, nurturing a vibrant society."
+    },
+    {
+        "companyName": "Helping Hands",
+        "type": "Non-Profit Organization",
+        "contactEmail": "hhands@partners.com",
+        "contactPhone": "470-848-8915",
+        "resources": "Offers volunteer opportunities and community service projects, with a focus on student personal development.",
+        "description": "Dedicated to making a positive impact in the community, fostering growth and support for those in need."
+    },
+    {
+        "companyName": "Helping Hands",
+        "type": "Non-Profit Organization",
+        "contactEmail": "hhands@schoolpartnerships.org",
+        "contactPhone": "480-271-3112",
+        "resources": "Offers volunteer opportunities and community service projects, with a focus on student personal development.",
+        "description": "Dedicated to making a positive impact in the community, fostering growth and support for those in need."
+    },
+    {
+        "companyName": "New Horizons",
+        "type": "Non-Profit Organization",
+        "contactEmail": "nhorizons@partners.com",
+        "contactPhone": "977-939-6767",
+        "resources": "Offers volunteer opportunities and community service projects, with a focus on student personal development.",
+        "description": "Dedicated to making a positive impact in the community, fostering growth and support for those in need."
+    },
+    {
+        "companyName": "Local Harvest Groceries",
+        "type": "Local Business",
+        "contactEmail": "lgroceries@partners.com",
+        "contactPhone": "596-217-5585",
+        "resources": "Supports local school events, provides educational discounts, and participates in school-run local economy studies.",
+        "description": "Rooted in the community, passionate about contributing to the local culture and economy, nurturing a vibrant society."
+    },
+    {
+        "companyName": "NextGen Innovations",
+        "type": "Corporate Business",
+        "contactEmail": "ninnovations@collab.org",
+        "contactPhone": "915-606-1337",
+        "resources": "Sponsors scholarships, engages in curriculum development, and provides resources for STEM education.",
+        "description": "A leader in industry, advancing technology and strategies to build a sustainable and prosperous future."
+    },
+    {
+        "companyName": "EduTech Forward",
+        "type": "For-Profit Organization",
+        "contactEmail": "eforward@schoolpartnerships.org",
+        "contactPhone": "851-378-8442",
+        "resources": "Provides internships and career mentoring for students, along with funding for school tech initiatives.",
+        "description": "Focused on bringing innovative solutions to the market, driving progress and opportunities for the next generation."
+    },
+    {
+        "companyName": "Green Earth Initiative",
+        "type": "Non-Profit Organization",
+        "contactEmail": "ginitiative@community.edu",
+        "contactPhone": "450-902-2765",
+        "resources": "Offers volunteer opportunities and community service projects, with a focus on student personal development.",
+        "description": "Dedicated to making a positive impact in the community, fostering growth and support for those in need."
+    },
+    {
+        "companyName": "Community Fitness Hub",
+        "type": "Local Business",
+        "contactEmail": "chub@community.edu",
+        "contactPhone": "209-261-1370",
+        "resources": "Supports local school events, provides educational discounts, and participates in school-run local economy studies.",
+        "description": "Rooted in the community, passionate about contributing to the local culture and economy, nurturing a vibrant society."
+    },
+    {
+        "companyName": "Renewable Energy Commission",
+        "type": "Government Affiliated",
+        "contactEmail": "rcommission@collab.org",
+        "contactPhone": "898-872-6686",
+        "resources": "Collaborates on educational programs, grants for school improvements, and support for extracurricular activities.",
+        "description": "Committed to public service and development, ensuring access to quality resources and benefits for all."
+    }
+]
