@@ -2,7 +2,7 @@
 
 PartnerLink is an educational resource management system tailored for academic institutions. It provides a comprehensive platform for administrators and educators to efficiently oversee educational resources provided by different businesses and organizations the school has access to. This README outlines the key aspects of PartnerLink, highlighting its capabilities and guiding you through the setup process.
 
-<img src="https://i.imgur.com/WMOIVWc.png" alt="PartnerLink Logo" width="800" height="650">
+<img src="https://i.imgur.com/WMOIVWc.png" alt="PartnerLink Logo">
 
 ## Key Features
 - **Resource Allocation**: PartnerLink allows for meticulous management of educational resources across various departments and classrooms.
@@ -11,17 +11,31 @@ PartnerLink is an educational resource management system tailored for academic i
 
 ## System Requirements
 - **Operating System Compatibility**: PartnerLink is optimized for Windows 10 and above.
-- **Internet Connectivity**: An uninterrupted internet connection is necessary for optimal performance of PartnerLink. 
+- **Internet Connectivity**: An uninterrupted internet connection is necessary for optimal performance of PartnerLink.
+- **Storage**: Atleast `40 MB` of storage is required to run PartnerLink.
 
 ## Installation Guide
 Follow these steps to install PartnerLink on your system:
 
 1. Visit the [PartnerLink GitHub repository](https://github.com/aidanq06/PartnerLink/).
-2. Download the source code available in the "Releases" section.
+2. Click `<> Code` then download the ZIP file, as shown below.
+   
+![image](https://github.com/aidanq06/PartnerLink/assets/62295620/3e9b61e8-699b-4d75-90d1-3a2dce47a710)
+
 3. Unzip the downloaded package to your preferred directory.
-4. Confirm that the directory structure matches the repository's layout.
-5. Execute the `ParnterLink.exe` 
-6. PartnerLink is now ready to assist in managing your educational institution's resources.
+4. Confirm that the directory structure matches the repository's layout. (See below for reference)
+
+![image](https://github.com/aidanq06/PartnerLink/assets/62295620/2da34d8d-c836-4f1e-bb1b-9ae6cddcbee0)
+
+6. Execute the `ParnterLink.exe`
+
+**NOTE:** if you are met with a screen displaying "Windows protected your PC", click `More info` then `Run anyway`
+
+![image](https://github.com/aidanq06/PartnerLink/assets/62295620/7e92b184-6b6b-48ab-b77b-61c440305d1c)
+![image](https://github.com/aidanq06/PartnerLink/assets/62295620/32012d55-eab3-4984-8509-23e5380c3907)
+
+
+8. PartnerLink is now ready to assist in managing your educational institution's resources.
 
 **Please Note:**
 - A continuous internet connection is essential for PartnerLink's functionality.
