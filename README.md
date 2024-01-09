@@ -16,7 +16,7 @@ PartnerLink is an educational resource management system tailored for academic i
 ## Installation Guide
 Follow these steps to install PartnerLink on your system:
 
-1. Visit the [PartnerLink GitHub repository](https://github.com/YourUsername/PartnerLink/).
+1. Visit the [PartnerLink GitHub repository](https://github.com/aidanq06/PartnerLink/).
 2. Download the source code available in the "Releases" section.
 3. Unzip the downloaded package to your preferred directory.
 4. Confirm that the directory structure matches the repository's layout.
