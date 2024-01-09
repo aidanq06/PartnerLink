@@ -1,6 +1,6 @@
 # PartnerLink
 
-PartnerLink is an educational resource management system tailored for academic institutions. It provides a comprehensive platform for administrators and educators to efficiently oversee educational resources provided by different businesses and organizations the school has access to. This README outlines the key aspects of PartnerLink, highlighting its capabilities and guiding you through the setup process.
+PartnerLink is an educational resource management system tailored for academic institutions. It provides a comprehensive platform for administrators and educators to efficiently oversee educational resources provided by different businesses and organizations the school has access to. 
 
 <img src="https://i.imgur.com/WMOIVWc.png" alt="PartnerLink Logo">
 
@@ -27,7 +27,7 @@ Follow these steps to install PartnerLink on your system:
 
 ![image](https://github.com/aidanq06/PartnerLink/assets/62295620/2da34d8d-c836-4f1e-bb1b-9ae6cddcbee0)
 
-6. Execute the `ParnterLink.exe`
+6. Run `ParnterLink.exe`
 
 **NOTE:** if you are met with a screen displaying "Windows protected your PC", click `More info` then `Run anyway`
 
