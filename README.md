@@ -23,7 +23,7 @@ Follow these steps to install PartnerLink on your system:
 1. Visit the [PartnerLink GitHub repository](https://github.com/aidanq06/PartnerLink/).
 2. Click `<> Code` then download the ZIP file, as shown below.
    
-![image](https://github.com/aidanq06/PartnerLink/assets/62295620/3e9b61e8-699b-4d75-90d1-3a2dce47a710)
+![image](https://github.com/aidanq06/PartnerLink/assets/62295620/88ff8a9f-a12d-4f52-9c4d-1c096cbbddab)
 
 3. Unzip the downloaded package to your preferred directory.
 4. Confirm that the directory structure matches the repository's layout. (See below for reference)
@@ -34,8 +34,10 @@ Follow these steps to install PartnerLink on your system:
 
 **NOTE:** if you are met with a screen displaying "Windows protected your PC", click `More info` then `Run anyway`
 
-![image](https://github.com/aidanq06/PartnerLink/assets/62295620/7e92b184-6b6b-48ab-b77b-61c440305d1c)
-![image](https://github.com/aidanq06/PartnerLink/assets/62295620/32012d55-eab3-4984-8509-23e5380c3907)
+![image](https://github.com/aidanq06/PartnerLink/assets/62295620/e0103bcc-b7da-4450-a369-0597b8ae5759)
+
+![image](https://github.com/aidanq06/PartnerLink/assets/62295620/8e8e5cdb-ea7f-4d44-87a6-c87566076181)
+
 
 
 8. PartnerLink is now ready to assist in managing your educational institution's resources.
