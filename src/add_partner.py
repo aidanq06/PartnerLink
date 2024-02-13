@@ -6,7 +6,7 @@ import re
 import json
 
 # MongoDB connection string
-with open("./assets/mongodb.json", 'r') as file:
+with open("./assets/variables.json", 'r') as file:
     data = json.load(file)
     conn_str = data['conn_str']
     
@@ -117,17 +117,22 @@ def create_add_partner_form(root, return_to_main):
     phone_frame, phone_entry = bordered_text_entry(left_frame, 400, 30, ("Roboto Medium", 16))
     phone_frame.pack(fill='x', pady=(0, 20))
 
-    # Resources Field
+    # Adjustments for Resources Field
     resources_label = ctk.CTkLabel(right_frame, text="Resources", font=customfont, anchor='w')
     resources_label.pack(fill='x', pady=(0, 5))
-    resources_frame, resources_entry = bordered_text_entry(right_frame, 400, 100, textfont)
+    resources_frame = ctk.CTkFrame(right_frame, fg_color=entry_bg, corner_radius=10)  # Use CTkFrame for the border
     resources_frame.pack(fill='x', pady=(0, 20))
+    resources_entry = tk.Text(resources_frame, height=5, font=textfont)  # Height is in text lines
+    resources_entry.pack(padx=10, pady=10)  # Add padding inside the frame for text widget
 
-    # Description Field on the right frame
+    # Adjustments for Description Field
     description_label = ctk.CTkLabel(right_frame, text="Description", font=customfont, anchor='w')
     description_label.pack(fill='x', pady=(0, 5))
-    description_frame, description_text = bordered_text_entry(right_frame, 400, 150, textfont)
+    description_frame = ctk.CTkFrame(right_frame, fg_color=entry_bg, corner_radius=10)
     description_frame.pack(fill='x', pady=(0, 20))
+    description_text = tk.Text(description_frame, height=7, font=textfont)
+    description_text.pack(padx=10, pady=10)
+
 
     # Submit and Back Buttons under the description
     submit_button = ctk.CTkButton(

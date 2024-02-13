@@ -52,7 +52,7 @@ def create_help_window(root, return_to_main):
     new_height = int(original_height * 0.75)
     
     # Resize the image
-    logo_image = logo_image.resize((new_width, new_height), Image.ANTIALIAS)
+    logo_image = logo_image.resize((new_width, new_height), Image.Resampling.LANCZOS)
     
     # Convert the image to a format that tkinter recognizes
     logo_photo = ImageTk.PhotoImage(logo_image)
@@ -73,7 +73,6 @@ def create_help_window(root, return_to_main):
 
     # Back Button
     back_button = ctk.CTkButton(right, width=175, height=35, text="Back", command=return_to_main, fg_color="black", bg_color="transparent", hover_color="#444444", text_color="white", font=("Roboto Medium", 25))
-
 
     back_button.pack(pady=10)
 

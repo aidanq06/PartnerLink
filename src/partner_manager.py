@@ -5,7 +5,7 @@ import customtkinter as ctk
 from tkinter import messagebox
 import json 
 # MongoDB connection string
-with open("./assets/mongodb.json", 'r') as file:
+with open("./assets/variables.json", 'r') as file:
     data = json.load(file)
     conn_str = data['conn_str']
 

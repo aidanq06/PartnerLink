@@ -4,10 +4,10 @@ from pymongo import MongoClient
 import json
 
 # Database connection setup
-with open("./assets/mongodb.json", 'r') as file:
+with open("./assets/variables.json", 'r') as file:
     data = json.load(file)
     conn_str = data['conn_str']
-
+    
 client = MongoClient(conn_str)
 db = client['partnerlink']
 users_col = db['users']

@@ -12,11 +12,14 @@ import add_partner as add_partner
 import helpButton as helpButton 
 import account_settings as account_settings
 import newAccount as newAccount
+import contact as contact
 
 # retrieving mongodb connection string from json file
-with open("./assets/mongodb.json", 'r') as file:
+with open("./assets/variables.json", 'r') as file:
     data = json.load(file)
     conn_str = data['conn_str']
+
+
 
 # connect to mongodb
 client = MongoClient(conn_str)
@@ -51,7 +54,7 @@ class SignInWindow(ctk.CTk):
         
         # Load and display logo in the left frame
         self.logo_image = Image.open("./assets/logoSlogan.png")
-        self.logo_image = self.logo_image.resize((450, 350), Image.ANTIALIAS)  # Resize logo
+        self.logo_image = self.logo_image.resize((450, 350), Image.Resampling.LANCZOS)
         self.logo_image = ImageTk.PhotoImage(self.logo_image)
         self.logo_label = ctk.CTkLabel(left_frame, image=self.logo_image, bg_color='white', fg_color="white", text="")
         self.logo_label.pack(pady=75)
@@ -153,7 +156,7 @@ class SignInWindow(ctk.CTk):
         new_height = int(original_height * 0.75)
         
         # Resize the image
-        logo_image = logo_image.resize((new_width, new_height), Image.ANTIALIAS)
+        logo_image = logo_image.resize((new_width, new_height), Image.Resampling.LANCZOS)
         
         # Convert the image to a format that tkinter recognizes
         logo_photo = ImageTk.PhotoImage(logo_image)
@@ -164,8 +167,8 @@ class SignInWindow(ctk.CTk):
         logo_label.pack()
 
 
-        buttonWidth = 350 
-        buttonHeight = 60
+        buttonWidth = 350
+        buttonHeight = 50
         buttonFont = ("Roboto Medium", 25)
 
         # Button for the first plugin
@@ -181,7 +184,24 @@ class SignInWindow(ctk.CTk):
             hover_color="#444444",
             command=lambda: partner_manager.create_and_show_treeview(self, self.return_to_main_menu)
         )
+
         plugin_button1.pack(pady=10)
+
+        plugin_button5 = ctk.CTkButton(
+            buttons_frame,
+            text="Contact",
+            width=buttonWidth,
+            height=buttonHeight,
+            font=buttonFont,
+            fg_color="black",
+            bg_color="white",
+            text_color="white",
+            hover_color="#444444",
+            command=lambda: contact.switch_to_contact_window(self, self.return_to_main_menu)
+
+        )
+        plugin_button5.pack(pady=10)
+
 
         # Button for the second plugin
         plugin_button2 = ctk.CTkButton(
@@ -244,7 +264,7 @@ class SignInWindow(ctk.CTk):
 
         # Load the help icon image
         help_icon = Image.open("assets/helpIcon.png")
-        help_icon = help_icon.resize((50,50), Image.ANTIALIAS)
+        help_icon = help_icon.resize((50,50), Image.Resampling.LANCZOS)
 
         help_photo = ImageTk.PhotoImage(help_icon)
 
@@ -271,5 +291,6 @@ class SignInWindow(ctk.CTk):
         self.create_new_layout()
 
 if __name__ == "__main__":
+    
     app = SignInWindow()
     app.mainloop()
